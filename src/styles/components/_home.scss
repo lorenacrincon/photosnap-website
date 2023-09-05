@@ -1,0 +1,25 @@
+.home-header {
+  h1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    letter-spacing: 3.333px;
+  }
+  p {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.6;
+  }
+
+  .gradient-rectangle {
+    height: 6px;
+    width: 128px;
+    background-image: var(--mainAccent);
+    position: absolute;
+    bottom: 55%;
+  }
+}

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* PRIMARY COLORS */
+  --white: hsl(0, 0%, 100%);
+  --lightGrey: hsl(0, 0%, 87%);
+  --black: hsl(0, 0%, 0%);
+
+  /*GRADIENT*/
+  --mainAccent: linear-gradient(#5a77ff, #bc7198, #ffc593);
+}
+
+html {
+  font-family: "DM Sans", sans-serif;
+}
+
+@layer base {
+  @font-face {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    src: url("/public/fonts/DMSans-Regular.ttf") format(".ttf");
+  }
+  @font-face {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    src: url("/public/fonts/DMSans-Bold.ttf") format(".ttf");
+  }
+}
