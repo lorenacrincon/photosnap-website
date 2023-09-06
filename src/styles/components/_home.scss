@@ -7,7 +7,6 @@
     letter-spacing: 3.333px;
   }
   p {
-    font-family: DM Sans;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -20,7 +19,7 @@
     width: 128px;
     background-image: var(--mainAccent);
     position: absolute;
-    top: 0;
+    top: -96px;
   }
 }
 
@@ -40,4 +39,60 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2px;
+}
+
+.create-bg {
+  background-image: url("/assets/home/mobile/create-and-share.jpg");
+}
+
+.beautiful-bg {
+  background-image: url("/assets/home/mobile/beautiful-stories.jpg");
+}
+
+.designed-bg {
+  background-image: url("/assets/home/mobile/designed-for-everyone.jpg");
+}
+
+@media screen and (min-width: 768px) {
+  .home-section {
+    h1 {
+      font-size: 40px;
+      font-style: normal;
+      line-height: 48px;
+      letter-spacing: 4.167px;
+    }
+    .gradient-rectangle {
+      height: 100%;
+      width: 6px;
+      background-image: var(--mainAccent);
+      left: -56px;
+      top: 0;
+    }
+    .create-bg {
+      background-image: url("/public/assets/home/tablet/create-and-share.jpg");
+    }
+    .beautiful-bg {
+      background-image: url("/assets/home/tablet/beautiful-stories.jpg");
+    }
+    .designed-bg {
+      background-image: url("/assets/home/tablet/designed-for-everyone.jpg");
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home-section {
+    .gradient-rectangle {
+      left: -112px;
+    }
+    .create-bg {
+      background-image: url("/public/assets/home/desktop/create-and-share.jpg");
+    }
+    .beautiful-bg {
+      background-image: url("/assets/home/desktop/beautiful-stories.jpg");
+    }
+    .designed-bg {
+      background-image: url("/assets/home/desktop/designed-for-everyone.jpg");
+    }
+  }
 }
