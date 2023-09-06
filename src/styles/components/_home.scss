@@ -1,4 +1,4 @@
-.home-header {
+.home-section {
   h1 {
     font-size: 32px;
     font-style: normal;
@@ -20,6 +20,24 @@
     width: 128px;
     background-image: var(--mainAccent);
     position: absolute;
-    bottom: 55%;
+    top: 0;
   }
+}
+
+.black-btn {
+  color: #000000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+.white-btn {
+  color: #ffffff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
 }

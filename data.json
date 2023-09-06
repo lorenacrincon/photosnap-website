@@ -1,0 +1,202 @@
+{
+  "stories": [
+    {
+      "id": 1,
+      "name": "The Mountains",
+      "images": {
+        "mobile": "/assets/stories/mobile/mountains.jpg",
+        "desktop": "/assets/stories/desktop/mountains.jpg"
+      },
+      "date": "April 16th 2020",
+      "author": "by John Appleseed"
+    },
+    {
+      "id": 2,
+      "name": "Sunset Cityscapes",
+      "images": {
+        "mobile": "/assets/stories/mobile/cityscapes.jpg",
+        "desktop": "/assets/stories/desktop/cityscapes.jpg"
+      },
+      "date": "April 14th 2020",
+      "author": "by Benjamin Cruzz"
+    },
+    {
+      "id": 3,
+      "name": "18 Days Voyage",
+      "images": {
+        "mobile": "/assets/stories/mobile/18-days-voyage.jpg",
+        "desktop": "/assets/stories/desktop/18-days-voyage.jpg"
+      },
+      "date": "April 11th 2020",
+      "author": "by Alexei Borodin"
+    },
+    {
+      "id": 4,
+      "name": "Architecturals",
+      "images": {
+        "mobile": "/assets/stories/mobile/architecturals.jpg",
+        "desktop": "/assets/stories/desktop/architecturals.jpg"
+      },
+      "date": "April 9th 2020",
+      "author": "by Samantha Brooke"
+    },
+    {
+      "id": 5,
+      "name": "World Tour 2019",
+      "images": {
+        "mobile": "/assets/stories/mobile/world-tour.jpg",
+        "desktop": "/assets/stories/desktop/world-tour.jpg"
+      },
+      "date": "April 7th 2020",
+      "author": "by Timothy Wagner"
+    },
+    {
+      "id": 6,
+      "name": "Unforeseen Corners",
+      "images": {
+        "mobile": "/assets/stories/mobile/unforeseen-corners.jpg",
+        "desktop": "/assets/stories/desktop/unforeseen-corners.jpg"
+      },
+      "date": "April 3rd 2020",
+      "author": "by William Malcolm"
+    },
+    {
+      "id": 7,
+      "name": "King on Africa: Part II",
+      "images": {
+        "mobile": "/assets/stories/mobile/king-on-africa.jpg",
+        "desktop": "/assets/stories/desktop/king-on-africa.jpg"
+      },
+      "date": "March 29th 2020",
+      "author": "by Tim Hillenburg"
+    },
+    {
+      "id": 8,
+      "name": "The Trip to Nowhere",
+      "images": {
+        "mobile": "/assets/stories/mobile/trip-to-nowhere.jpg",
+        "desktop": "/assets/stories/desktop/trip-to-nowhere.jpg"
+      },
+      "date": "March 21st 2020",
+      "author": "by Felicia Rourke"
+    },
+    {
+      "id": 9,
+      "name": "Rage of The Sea",
+      "images": {
+        "mobile": "/assets/stories/mobile/rage-of-the-sea.jpg",
+        "desktop": "/assets/stories/desktop/rage-of-the-sea.jpg"
+      },
+      "date": "March 19th 2020",
+      "author": "by Mohammed Abdul"
+    },
+    {
+      "id": 10,
+      "name": "Running Free",
+      "images": {
+        "mobile": "/assets/stories/mobile/running-free.jpg",
+        "desktop": "/assets/stories/desktop/running-free.jpg"
+      },
+      "date": "March 16th 2020",
+      "author": "by Michelle"
+    },
+    {
+      "id": 11,
+      "name": "Behind the Waves",
+      "images": {
+        "mobile": "/assets/stories/mobile/behind-the-waves.jpg",
+        "desktop": "/assets/stories/desktop/behind-the-waves.jpg"
+      },
+      "date": "March 11th 2020",
+      "author": "by Lamarr Wilson"
+    },
+    {
+      "id": 12,
+      "name": "Calm Waters",
+      "images": {
+        "mobile": "/assets/stories/mobile/calm-waters.jpg",
+        "desktop": "/assets/stories/desktop/calm-waters.jpg"
+      },
+      "date": "March 9th 2020",
+      "author": "by Samantha Brooke"
+    },
+    {
+      "id": 13,
+      "name": "The Milky Way",
+      "images": {
+        "mobile": "/assets/stories/mobile/milky-way.jpg",
+        "desktop": "/assets/stories/desktop/milky-way.jpg"
+      },
+      "date": "March 5th 2020",
+      "author": "by Benjamin Cruz"
+    },
+    {
+      "id": 14,
+      "name": "Night at The Dark Forest",
+      "images": {
+        "mobile": "/assets/stories/mobile/dark-forest.jpg",
+        "desktop": "/assets/stories/desktop/dark-forest.jpg"
+      },
+      "date": "March 4th 2020",
+      "author": "by Mohammed Abdul"
+    },
+    {
+      "id": 15,
+      "name": "Somwarpet’s Beauty",
+      "images": {
+        "mobile": "/assets/stories/mobile/somwarpet.jpg",
+        "desktop": "/assets/stories/desktop/somwarpet.jpg"
+      },
+      "date": "March 1st 2020",
+      "author": "by Michelle"
+    },
+    {
+      "id": 16,
+      "name": "Land of Dreams",
+      "images": {
+        "mobile": "/assets/stories/mobile/somwarpet.jpg",
+        "desktop": "/assets/stories/desktop/somwarpet.jpg"
+      },
+      "date": "February 25th 2020",
+      "author": "by William Malcolm"
+    }
+  ],
+  "features": [
+    {
+      "id": 1,
+      "title": "100% Responsive",
+      "icon": "/assets/features/desktop/responsive.svg",
+      "description": "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen."
+    },
+    {
+      "id": 2,
+      "title": "No Photo Upload Limit",
+      "icon": "/assets/features/desktop/no-limit.svg",
+      "description": "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go."
+    },
+    {
+      "id": 3,
+      "title": "Available to Embed",
+      "icon": "/assets/features/desktop/embed.svg",
+      "description": "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more."
+    },
+    {
+      "id": 4,
+      "title": "Custom Domain",
+      "icon": "/assets/features/desktop/custom-domain.svg",
+      "description": "With Photosnap subscriptions you can host your stories on your own domain. You can also remove our branding!"
+    },
+    {
+      "id": 5,
+      "title": "Boost Your Exposure",
+      "icon": "/assets/features/desktop/boost-exposure.svg",
+      "description": "Users that viewed your story or gallery can easily get notifed of new and featured stories with our built in mailing list."
+    },
+    {
+      "id": 6,
+      "title": "Drag & Drop Image",
+      "icon": "/assets/features/desktop/drag-drop.svg",
+      "description": "Easily drag and drop your image and get beautiful shots everytime. No over the top tooling to add friction to creating stories."
+    }
+  ]
+}
