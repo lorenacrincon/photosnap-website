@@ -1,0 +1,28 @@
+.nav-text {
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  color: var(--black);
+}
+
+.black-btn {
+  background-color: var(--black);
+  color: white;
+  padding: 12px 24px;
+  font-size: 15px;
+  letter-spacing: 2.5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-text {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .black-btn {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+}
