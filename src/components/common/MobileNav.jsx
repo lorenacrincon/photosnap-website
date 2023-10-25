@@ -18,7 +18,7 @@ function MobileNav() {
         initial="hide"
         animate={mobileNav ? "show" : "hide"}
         onClick={toggleMobileNav}
-        className="flex flex-col space-y-1 absolute right-6 top-[26px] z-40 md:hidden"
+        className="flex flex-col space-y-1 absolute right-6 top-[21px] z-40 md:hidden"
       >
         <motion.span
           variants={{
@@ -45,7 +45,7 @@ function MobileNav() {
           className="w-5 bg-black h-[1px] block "
         ></motion.span>
       </motion.button>
-      <nav className="absolute w-full z-0 top-16 left-0" id="mobile-nav">
+      <nav className="absolute w-full z-0 top-10 left-0" id="mobile-nav">
         <AnimatePresence>
           {mobileNav && (
             <MotionConfig

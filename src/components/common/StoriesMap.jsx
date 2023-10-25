@@ -24,7 +24,7 @@ export const HomeStories = () => {
         const currentImage =
           windowWidth >= 768 ? item.images.desktop : item.images.mobile;
         return (
-          <div key={item.id}>
+          <div key={item.id} className="hover-effect">
             <div
               className="stories bg-no-repeat h-[375px] bg-cover grid px-8 py-10 content-end gap-5 relative z-0 md:h-[500px]"
               style={{
@@ -39,6 +39,7 @@ export const HomeStories = () => {
               </div>
               <ReadStory />
             </div>
+            <div className="hidden lg:block gradient-hover"></div>
           </div>
         );
       })}

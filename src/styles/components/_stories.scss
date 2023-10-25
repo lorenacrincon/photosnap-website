@@ -22,3 +22,20 @@
   background-blend-mode: multiply;
   opacity: 0.9;
 }
+
+.hover-effect:hover {
+  transform: translateY(-40px);
+  transition: transform 0.3s;
+}
+
+.gradient-hover {
+  height: 6px;
+  width: 100%;
+  background-image: var(--mainAccentHr);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hover-effect:hover .gradient-hover {
+  opacity: 1;
+}

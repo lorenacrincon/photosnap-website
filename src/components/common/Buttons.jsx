@@ -25,7 +25,7 @@ export const GetAnInvite = () => {
 
 export const ViewStories = () => {
   return (
-    <button className="flex flex-wrap gap-4 black-btn">
+    <button className="flex flex-wrap gap-4 font-bold tracking-[2px] text-[12px] justify-between relative z-40">
       <span>VIEW THE STORIES</span>
       <svg
         className="self-center"

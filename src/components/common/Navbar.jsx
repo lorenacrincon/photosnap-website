@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <>
       <nav className="relative z-40 bg-white">
-        <div className="mx-6 py-6 md:px-0 md:mx-10 md:py-7">
+        <div className="px-6 py-4 lg:px-0 md:max-w-4xl xl:max-w-6xl md:mx-auto">
           <div className="text-black flex items-center justify-between">
             <div>
               <NavLink to="#">

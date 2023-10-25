@@ -17,9 +17,9 @@
   .gradient-rectangle {
     height: 6px;
     width: 128px;
-    background-image: var(--mainAccent);
+    background-image: var(--mainAccentHr);
     position: absolute;
-    top: -96px;
+    top: -80px;
   }
 }
 
@@ -43,6 +43,7 @@
 
 .create-bg {
   background-image: url("/assets/home/mobile/create-and-share.jpg");
+  height: 300px;
 }
 
 .beautiful-bg {
