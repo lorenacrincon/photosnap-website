@@ -2,7 +2,6 @@ import React from "react";
 import logo from "/assets/shared/desktop/logo-white.svg";
 import SocialMediaIcons from "./social_media/SocialMediaIcons";
 import { Link } from "react-router-dom";
-import { GetAnInvite } from "../Buttons";
 
 function Footer() {
   return (
@@ -17,13 +16,13 @@ function Footer() {
           </div>
           <div className="flex flex-col items-center tracking-widest text-[12px] gap-4 md:flex-row md:gap-10 lg:gap-5 lg:flex-col lg:items-start">
             <Link
-              to="#"
+              to="/"
               className="text-white hover:opacity-[0.3] transition duration-300"
             >
               HOME
             </Link>
             <Link
-              to="#"
+              to="/stories"
               className="text-white hover:opacity-[0.3] transition duration-300"
             >
               STORIES

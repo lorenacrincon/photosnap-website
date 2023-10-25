@@ -1,6 +1,6 @@
-import { GetAnInvite, ViewStories } from "../common/Buttons";
-import { HomeStories } from "../common/StoriesMap";
-import { HomeFeatures } from "../common/FeaturesMap";
+import { GetAnInvite, ViewStories } from "../../common/Buttons";
+import { HomeStories } from "../../common/StoriesMap";
+import { HomeFeatures } from "../../common/FeaturesMap";
 
 function Home() {
   return (

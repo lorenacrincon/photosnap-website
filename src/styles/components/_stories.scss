@@ -1,3 +1,30 @@
+.stories-header {
+  position: relative;
+  background-image: url("/assets/stories/mobile/moon-of-appalacia.jpg");
+  height: 300px;
+  z-index: 1;
+}
+
+// .stories-header::before {
+//   content: "";
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background: radial-gradient(
+//     94.05% 94.05% at 0% 100%,
+//     #ffc593 0%,
+//     rgba(188, 113, 152, 0.5) 52.36%,
+//     rgba(90, 119, 255, 0) 100%
+//   );
+//   z-index: 1;
+// }
+
+.main-header {
+  background-color: black;
+}
+
 .story-title {
   font-size: 18px;
   font-style: normal;
@@ -23,22 +50,45 @@
   opacity: 0.9;
 }
 
-.hover-effect {
-  transition: transform 0.4s ease-in-out;
+@media screen and (min-width: 768px) {
+  .main-header {
+    background-image: url("/assets/stories/tablet/moon-of-appalacia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .main-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(60, 0, 82, 0.315);
+    mix-blend-mode: overlay;
+  }
 }
 
-.hover-effect:hover {
-  transform: translateY(-40px);
-}
+@media screen and (min-width: 1024px) {
+  .hover-effect {
+    transition: transform 0.4s ease-in-out;
+  }
 
-.gradient-hover {
-  height: 6px;
-  width: 100%;
-  background-image: var(--mainAccentHr);
-  opacity: 0;
-  transition: opacity 0.3s;
-}
+  .hover-effect:hover {
+    transform: translateY(-40px);
+  }
 
-.hover-effect:hover .gradient-hover {
-  opacity: 1;
+  .gradient-hover {
+    height: 6px;
+    width: 100%;
+    background-image: var(--mainAccentHr);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .hover-effect:hover .gradient-hover {
+    opacity: 1;
+  }
 }

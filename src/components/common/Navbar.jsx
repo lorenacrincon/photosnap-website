@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <>
       <nav className="relative z-40 bg-white">
-        <div className="px-6 py-4 lg:px-0 md:px-10 md:mx-auto lg:px-40">
+        <div className="px-6 py-4 md:px-10 md:mx-auto lg:px-40">
           <div className="text-black flex items-center justify-between">
             <div>
               <NavLink to="/">
@@ -17,7 +17,7 @@ function Navbar() {
             <div>
               <ul className="hidden md:flex md:justify-end md:items-center text-white nav-text gap-10 md:gap-9">
                 <NavLink
-                  to="#"
+                  to="/stories"
                   className="hover:opacity-[0.3] transition duration-300"
                 >
                   STORIES

@@ -45,7 +45,13 @@ function MobileNav() {
           className="w-5 bg-black h-[1px] block "
         ></motion.span>
       </motion.button>
-      <nav className="absolute w-full z-0 top-10 left-0" id="mobile-nav">
+      {mobileNav && (
+        <div
+          className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-75 z-20"
+          onClick={handleClose}
+        ></div>
+      )}
+      <nav className="absolute w-full z-30 top-10 left-0" id="mobile-nav">
         <AnimatePresence>
           {mobileNav && (
             <MotionConfig
@@ -98,7 +104,11 @@ function MobileNav() {
                     className="list-none grid gap-5"
                   >
                     <li>
-                      <NavLink to="#" className="px-6" onClick={handleClose}>
+                      <NavLink
+                        to="/stories"
+                        className="px-6"
+                        onClick={handleClose}
+                      >
                         STORIES
                       </NavLink>
                     </li>
