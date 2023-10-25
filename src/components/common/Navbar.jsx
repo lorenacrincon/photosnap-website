@@ -7,10 +7,10 @@ function Navbar() {
   return (
     <>
       <nav className="relative z-40 bg-white">
-        <div className="px-6 py-4 lg:px-0 md:max-w-4xl xl:max-w-6xl md:mx-auto">
+        <div className="px-6 py-4 lg:px-0 md:px-10 md:mx-auto lg:px-40">
           <div className="text-black flex items-center justify-between">
             <div>
-              <NavLink to="#">
+              <NavLink to="/">
                 <img className="" src={logo} alt="Logo" />
               </NavLink>
             </div>
@@ -36,8 +36,8 @@ function Navbar() {
                 </NavLink>
               </ul>
             </div>
-            <div>
-              <button className="hidden md:block black-btn">
+            <div className="hidden md:block">
+              <button className="black-btn">
                 <span>Get an invite</span>
               </button>
             </div>

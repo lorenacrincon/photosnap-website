@@ -7,8 +7,8 @@ import React from "react";
 
 export const GetAnInvite = () => {
   return (
-    <button className="flex flex-wrap gap-4 white-btn hover:underline">
-      <span className="self-center">GET AN INVITE</span>
+    <button className="flex flex-wrap gap-4 white-btn hover:underline self-start">
+      <span className="self-center ">GET AN INVITE</span>
       <svg
         className="self-center"
         xmlns="http://www.w3.org/2000/svg"

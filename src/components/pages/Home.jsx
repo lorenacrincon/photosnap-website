@@ -26,7 +26,7 @@ function Home() {
       </section>
       <section className="home-section">
         <div className="md:grid md:grid-cols-3 lg:grid-cols-7">
-          <div className="beautiful-bg h-[271px] md:h-[632px] md:flex bg-no-repeat bg-cover bg-center md:col-span-1 lg:col-span-4"></div>
+          <div className="beautiful-bg h-[271px] md:h-full md:flex bg-no-repeat bg-cover bg-center md:col-span-1 lg:col-span-4"></div>
           <div className="bg-pure-white text-pure-black px-6 py-16 flex flex-wrap md:px-14 md:col-span-2 md:py-32 lg:px-28 lg:col-span-3">
             <div className="relative flex flex-wrap gap-6 content-between">
               <h1 className="uppercase lg:pe-20">
@@ -46,7 +46,7 @@ function Home() {
       </section>
       <section className="home-section">
         <div className="md:grid md:grid-cols-3 lg:grid-cols-7">
-          <div className="designed-bg h-[271px] md:h-[600px] md:flex bg-no-repeat bg-cover bg-center md:col-span-1 md:order-last lg:col-span-4"></div>
+          <div className="designed-bg h-[271px] md:h-full md:flex bg-no-repeat bg-cover bg-center md:col-span-1 md:order-last lg:col-span-4"></div>
 
           <div className="bg-pure-white text-pure-black px-6 py-24 flex flex-wrap md:px-14 md:col-span-2  md:py-32 lg:px-28 lg:col-span-3">
             <div className="relative flex flex-wrap gap-6 h-full content-between ">
