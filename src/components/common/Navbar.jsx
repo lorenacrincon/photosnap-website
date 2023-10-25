@@ -16,20 +16,29 @@ function Navbar() {
             </div>
             <div>
               <ul className="hidden md:flex md:justify-end md:items-center text-white nav-text gap-10 md:gap-9">
-                <NavLink to="#" className="hover-underline-animation">
+                <NavLink
+                  to="#"
+                  className="hover:opacity-[0.3] transition duration-300"
+                >
                   STORIES
                 </NavLink>
-                <NavLink to="#" className="hover-underline-animation">
+                <NavLink
+                  to="#"
+                  className="hover:opacity-[0.3] transition duration-300"
+                >
                   FEATURES
                 </NavLink>
-                <NavLink to="#" className="hover-underline-animation">
+                <NavLink
+                  to="#"
+                  className="hover:opacity-[0.3] transition duration-300"
+                >
                   PRICING
                 </NavLink>
               </ul>
             </div>
             <div>
               <button className="hidden md:block black-btn">
-                GET AN INVITE
+                <span>Get an invite</span>
               </button>
             </div>
           </div>

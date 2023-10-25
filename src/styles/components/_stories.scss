@@ -23,9 +23,12 @@
   opacity: 0.9;
 }
 
+.hover-effect {
+  transition: transform 0.4s ease-in-out;
+}
+
 .hover-effect:hover {
   transform: translateY(-40px);
-  transition: transform 0.3s;
 }
 
 .gradient-hover {

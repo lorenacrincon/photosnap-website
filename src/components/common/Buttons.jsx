@@ -7,7 +7,7 @@ import React from "react";
 
 export const GetAnInvite = () => {
   return (
-    <button className="flex flex-wrap gap-4 white-btn">
+    <button className="flex flex-wrap gap-4 white-btn hover:underline">
       <span className="self-center">GET AN INVITE</span>
       <svg
         className="self-center"
@@ -25,7 +25,7 @@ export const GetAnInvite = () => {
 
 export const ViewStories = () => {
   return (
-    <button className="flex flex-wrap gap-4 font-bold tracking-[2px] text-[12px] justify-between relative z-40">
+    <button className="flex flex-wrap gap-4 font-bold tracking-[2px] text-[12px] justify-between relative z-40 hover:underline">
       <span>VIEW THE STORIES</span>
       <svg
         className="self-center"
@@ -43,7 +43,7 @@ export const ViewStories = () => {
 
 export const ReadStory = () => {
   return (
-    <button className="flex flex-wrap gap-4 white-btn justify-between relative z-40">
+    <button className="flex flex-wrap gap-4 white-btn justify-between relative z-40 hover:underline">
       <span>READ STORY</span>
       <svg
         className="self-center"
