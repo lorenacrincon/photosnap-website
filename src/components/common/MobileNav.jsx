@@ -113,12 +113,20 @@ function MobileNav() {
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="#" className="px-6" onClick={handleClose}>
+                      <NavLink
+                        to="/features"
+                        className="px-6"
+                        onClick={handleClose}
+                      >
                         FEATURES
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="#" className="px-6" onClick={handleClose}>
+                      <NavLink
+                        to="/pricing"
+                        className="px-6"
+                        onClick={handleClose}
+                      >
                         PRICING
                       </NavLink>
                     </li>

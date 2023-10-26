@@ -14,6 +14,42 @@
   padding: 12px 24px;
   font-size: 15px;
   letter-spacing: 2.5px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: white;
+  font-weight: 700;
+  gap: 8px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
+  text-transform: uppercase;
+
+  &::before {
+    width: 110%;
+    height: 150px;
+    position: absolute;
+    content: "";
+    background-color: var(--lightGrey);
+    left: -120%;
+    top: 0;
+    transition-duration: 0.3s;
+    mix-blend-mode: difference;
+  }
+
+  &:hover::before {
+    transition-duration: 0.5s;
+    transform: translate(100%, -50%);
+  }
+
+  &:active {
+    transform: translate(5px, 5px);
+    transition: transform 0.3s ease-in-out;
+  }
 }
 
 @media only screen and (min-width: 768px) {

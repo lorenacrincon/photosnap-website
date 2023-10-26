@@ -13,54 +13,14 @@
     line-height: 25px;
     opacity: 0.6;
   }
-
-  .gradient-rectangle {
-    height: 6px;
-    width: 128px;
-    background-image: var(--mainAccentHr);
-    position: absolute;
-    top: -80px;
-  }
 }
 
-.black-btn {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #000000;
-  border: none;
-  color: white;
-  font-weight: 700;
-  gap: 8px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  text-transform: uppercase;
-
-  &::before {
-    width: 110%;
-    height: 150px;
-    position: absolute;
-    content: "";
-    background-color: var(--lightGrey);
-    left: -120%;
-    top: 0;
-    transition-duration: 0.3s;
-    mix-blend-mode: difference;
-  }
-
-  &:hover::before {
-    transition-duration: 0.5s;
-    transform: translate(100%, -50%);
-  }
-
-  &:active {
-    transform: translate(5px, 5px);
-    transition: transform 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  }
+.gradient-rectangle {
+  height: 6px;
+  width: 128px;
+  background-image: var(--mainAccentHr);
+  position: absolute;
+  top: -64px;
 }
 
 .white-btn {
@@ -93,13 +53,7 @@
       line-height: 48px;
       letter-spacing: 4.167px;
     }
-    .gradient-rectangle {
-      height: 100%;
-      width: 6px;
-      background-image: var(--mainAccent);
-      left: -56px;
-      top: 0;
-    }
+
     .create-bg {
       background-image: url("/assets/home/tablet/create-and-share.jpg");
     }
@@ -110,13 +64,17 @@
       background-image: url("/assets/home/tablet/designed-for-everyone.jpg");
     }
   }
+  .gradient-rectangle {
+    height: 100%;
+    width: 6px;
+    background-image: var(--mainAccent);
+    left: -56px;
+    top: 0;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .home-section {
-    .gradient-rectangle {
-      left: -112px;
-    }
     .create-bg {
       background-image: url("/assets/home/desktop/create-and-share.jpg");
     }
@@ -126,5 +84,8 @@
     .designed-bg {
       background-image: url("/assets/home/desktop/designed-for-everyone.jpg");
     }
+  }
+  .gradient-rectangle {
+    left: -112px;
   }
 }

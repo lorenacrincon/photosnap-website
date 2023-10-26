@@ -23,13 +23,13 @@ function Navbar() {
                   STORIES
                 </NavLink>
                 <NavLink
-                  to="#"
+                  to="/features"
                   className="hover:opacity-[0.3] transition duration-300"
                 >
                   FEATURES
                 </NavLink>
                 <NavLink
-                  to="#"
+                  to="/pricing"
                   className="hover:opacity-[0.3] transition duration-300"
                 >
                   PRICING

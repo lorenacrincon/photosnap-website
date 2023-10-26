@@ -5,22 +5,6 @@
   z-index: 1;
 }
 
-// .stories-header::before {
-//   content: "";
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background: radial-gradient(
-//     94.05% 94.05% at 0% 100%,
-//     #ffc593 0%,
-//     rgba(188, 113, 152, 0.5) 52.36%,
-//     rgba(90, 119, 255, 0) 100%
-//   );
-//   z-index: 1;
-// }
-
 .main-header {
   background-color: black;
 }
@@ -81,14 +65,42 @@
   }
 
   .gradient-hover {
-    height: 6px;
     width: 100%;
     background-image: var(--mainAccentHr);
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.3s ease-in-out;
   }
 
   .hover-effect:hover .gradient-hover {
+    height: 6px;
     opacity: 1;
+    position: absolute;
+  }
+
+  .main-header {
+    background-image: url("/assets/stories/desktop/moon-of-appalacia.jpg");
+  }
+
+  .main-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      94.05% 94.05% at 0% 100%,
+      hsla(28, 100%, 79%, 1),
+      hsla(329, 36%, 59%, 0.5),
+      hsla(229, 100%, 68%, 0)
+    );
+    z-index: 1;
+    mix-blend-mode: screen;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .main-header:hover::before {
+    opacity: 0.5;
   }
 }

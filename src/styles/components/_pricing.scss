@@ -1,0 +1,18 @@
+.pricing-bg {
+  background-image: url("/assets/pricing/mobile/hero.jpg");
+  height: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .pricing-bg {
+    background-image: url("/assets/pricing/tablet/hero.jpg");
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pricing-bg {
+    background-image: url("/assets/pricing/desktop/hero.jpg");
+    height: 300px;
+  }
+}

@@ -14,7 +14,7 @@ function Footer() {
               <SocialMediaIcons />
             </div>
           </div>
-          <div className="flex flex-col items-center tracking-widest text-[12px] gap-4 md:flex-row md:gap-10 lg:gap-5 lg:flex-col lg:items-start">
+          <div className="flex flex-col items-center tracking-widest text-[12px] gap-4 font-bold md:flex-row md:gap-10 lg:gap-5 lg:flex-col lg:items-start">
             <Link
               to="/"
               className="text-white hover:opacity-[0.3] transition duration-300"
@@ -28,13 +28,13 @@ function Footer() {
               STORIES
             </Link>
             <Link
-              to="#"
+              to="/features"
               className="text-white hover:opacity-[0.3] transition duration-300"
             >
               FEATURES
             </Link>
             <Link
-              to="#"
+              to="/pricing"
               className="text-white hover:opacity-[0.3] transition duration-300"
             >
               PRICING
