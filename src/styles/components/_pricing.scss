@@ -3,10 +3,118 @@
   height: 300px;
 }
 
+.toggle-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: none;
+}
+
+.toggle-switch {
+  background-color: var(--lightGrey);
+  width: 64px;
+  height: 32px;
+  border-radius: 16px;
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.toggle-switch::before {
+  content: "";
+  font-weight: 900;
+  background-color: black;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  border-radius: 50%;
+  top: 4px;
+  left: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+
+.toggle-checkbox:checked + .toggle-switch {
+  background-color: black;
+}
+
+.toggle-checkbox:checked + .toggle-switch::before {
+  content: "";
+  background-color: white;
+  left: 36px;
+  color: black;
+}
+
+.card-bg {
+  background-color: hsla(0, 0%, 96%, 1);
+}
+
+.card-gradient {
+  height: 6px;
+  width: 100%;
+  background-image: var(--mainAccentHr);
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
+.white-rect-btn {
+  background-color: white;
+  color: black;
+  padding: 12px 24px;
+  font-size: 15px;
+  letter-spacing: 2.5px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-weight: 700;
+  gap: 8px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
+  text-transform: uppercase;
+
+  &::before {
+    width: 110%;
+    height: 150px;
+    position: absolute;
+    content: "";
+    background-color: var(--lightGrey);
+    left: -120%;
+    top: 0;
+    transition-duration: 0.3s;
+    mix-blend-mode: multiply;
+  }
+
+  &:hover::before {
+    transition-duration: 0.5s;
+    transform: translate(100%, -50%);
+  }
+
+  &:active {
+    transform: translate(5px, 5px);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .pricing-bg {
     background-image: url("/assets/pricing/tablet/hero.jpg");
     height: 300px;
+  }
+  .card-gradient {
+    height: 100%;
+    width: 6px;
+    background-image: var(--mainAccent);
+    left: 0px;
+    top: 0;
   }
 }
 
