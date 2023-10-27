@@ -1,10 +1,14 @@
 import React from "react";
 import { AllFeatures } from "../../common/FeaturesMap";
 import Beta from "../../common/Beta";
+import PageTitle from "../../common/PageTitle";
 
 function Features() {
+  const pageTitle = "Photosnap | Features";
+
   return (
     <>
+      <PageTitle title={pageTitle} />
       <section className="home-section">
         <div className="md:grid md:grid-cols-3 lg:grid-cols-7">
           <div className="features-bg md:h-full md:flex order-last bg-no-repeat bg-cover bg-center lg:col-span-4"></div>

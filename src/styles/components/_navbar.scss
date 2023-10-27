@@ -8,6 +8,10 @@
   color: var(--black);
 }
 
+#photosnap-nav a.active {
+  opacity: 0.5;
+}
+
 .black-btn {
   background-color: var(--black);
   color: white;

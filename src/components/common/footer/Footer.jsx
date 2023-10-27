@@ -4,6 +4,13 @@ import SocialMediaIcons from "./social_media/SocialMediaIcons";
 import { Link } from "react-router-dom";
 
 function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <div className="bg-pure-black flex flex-col py-14 px-16 gap-24 md:flex-row md:px-10 md:py-16 md:gap-0 lg:px-40 lg:justify-between">
@@ -17,24 +24,28 @@ function Footer() {
           <div className="flex flex-col items-center tracking-widest text-[12px] gap-4 font-bold md:flex-row md:gap-10 lg:gap-5 lg:flex-col lg:items-start">
             <Link
               to="/"
+              onClick={scrollToTop}
               className="text-white hover:opacity-[0.3] transition duration-300"
             >
               HOME
             </Link>
             <Link
               to="/stories"
+              onClick={scrollToTop}
               className="text-white hover:opacity-[0.3] transition duration-300"
             >
               STORIES
             </Link>
             <Link
               to="/features"
+              onClick={scrollToTop}
               className="text-white hover:opacity-[0.3] transition duration-300"
             >
               FEATURES
             </Link>
             <Link
               to="/pricing"
+              onClick={scrollToTop}
               className="text-white hover:opacity-[0.3] transition duration-300"
             >
               PRICING

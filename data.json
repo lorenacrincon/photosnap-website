@@ -198,5 +198,63 @@
       "icon": "/assets/features/desktop/drag-drop.svg",
       "description": "Easily drag and drop your image and get beautiful shots everytime. No over the top tooling to add friction to creating stories."
     }
+  ],
+  "table": [
+    {
+      "id": 1,
+      "title": "UNLIMITED STORY POSTING",
+      "basic": true,
+      "pro": true,
+      "business": true
+    },
+    {
+      "id": 2,
+      "title": "UNLIMITED PHOTO UPLOAD",
+      "basic": true,
+      "pro": true,
+      "business": true
+    },
+    {
+      "id": 3,
+      "title": "EMBEDDING CUSTOM CONTENT",
+      "basic": false,
+      "pro": true,
+      "business": true
+    },
+    {
+      "id": 4,
+      "title": "CUSTOMIZE METADATA",
+      "basic": false,
+      "pro": true,
+      "business": true
+    },
+    {
+      "id": 5,
+      "title": "ADVANCED METRICS",
+      "basic": false,
+      "pro": false,
+      "business": true
+    },
+    {
+      "id": 6,
+      "title": "PHOTO DOWNLOADS",
+      "basic": false,
+      "pro": false,
+      "business": true
+    },
+    {
+      "id": 7,
+      "title": "SEARCH ENGINE INDEXING",
+      "basic": false,
+      "pro": false,
+      "business": true
+    },
+    {
+      "id": 8,
+      "title": "CUSTOM ANALYTICS",
+      "basic": false,
+      "pro": false,
+      "business": true
+    }
   ]
 }

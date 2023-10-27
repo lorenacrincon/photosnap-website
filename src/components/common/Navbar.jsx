@@ -14,7 +14,7 @@ function Navbar() {
                 <img className="" src={logo} alt="Logo" />
               </NavLink>
             </div>
-            <div>
+            <div id="photosnap-nav">
               <ul className="hidden md:flex md:justify-end md:items-center text-white nav-text gap-10 md:gap-9">
                 <NavLink
                   to="/stories"

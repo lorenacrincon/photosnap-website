@@ -1,10 +1,14 @@
 import { GetAnInvite, ViewStories } from "../../common/Buttons";
 import { HomeStories } from "../../common/StoriesMap";
 import { HomeFeatures } from "../../common/FeaturesMap";
+import PageTitle from "../../common/PageTitle";
 
 function Home() {
+  const pageTitle = "Photosnap | Home";
+
   return (
     <>
+      <PageTitle title={pageTitle} />
       <section className="home-section">
         <div className="md:grid md:grid-cols-3 lg:grid-cols-7">
           <div className="create-bg md:h-full md:flex order-last bg-no-repeat bg-cover bg-center lg:col-span-4"></div>

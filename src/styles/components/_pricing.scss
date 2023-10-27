@@ -118,9 +118,37 @@
   }
 }
 
+.features-title {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.features-subtitle {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
 @media screen and (min-width: 1024px) {
   .pricing-bg {
     background-image: url("/assets/pricing/desktop/hero.jpg");
     height: 300px;
+  }
+
+  .card-gradient {
+    height: 6px;
+    width: 100%;
+    background-image: var(--mainAccentHr);
+    position: absolute;
+    top: 0px;
+    left: 0;
   }
 }
