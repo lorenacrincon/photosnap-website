@@ -15,12 +15,16 @@ function Footer() {
     <>
       <div className="bg-pure-black flex flex-col py-14 px-16 gap-24 md:flex-row md:px-10 md:py-16 md:gap-0 lg:px-40 lg:justify-between">
         <div className="flex flex-wrap justify-center md:justify-start gap-8 lg:gap-32">
-          <div className="flex flex-wrap justify-center gap-6 md:gap-0 lg:flex-col lg:justify-between">
+          <Link
+            to="/"
+            className="flex flex-wrap justify-center gap-6 md:gap-0 lg:flex-col lg:justify-between"
+            onClick={scrollToTop}
+          >
             <img className="w-[170px]" src={logo} alt="Logo" />
             <div className="md:hidden lg:block">
               <SocialMediaIcons />
             </div>
-          </div>
+          </Link>
           <div className="flex flex-col items-center tracking-widest text-[12px] gap-4 font-bold md:flex-row md:gap-10 lg:gap-5 lg:flex-col lg:items-start">
             <Link
               to="/"

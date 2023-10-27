@@ -1,9 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-// const btnHover = {
-//   color: "var(--white)",
-//   backgroundColor: "var(--lightPeach)",
-// };
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
 
 export const GetAnInvite = () => {
   return (
@@ -25,19 +28,21 @@ export const GetAnInvite = () => {
 
 export const ViewStories = () => {
   return (
-    <button className="flex flex-wrap gap-4 font-bold tracking-[2px] text-[12px] justify-between relative z-40 hover:underline">
-      <span>VIEW THE STORIES</span>
-      <svg
-        className="self-center"
-        xmlns="http://www.w3.org/2000/svg"
-        width="43"
-        height="14"
-      >
-        <g fill="none" fillRule="evenodd" stroke="#000000">
-          <path d="M0 7h41.864M35.428 1l6 6-6 6" />
-        </g>
-      </svg>
-    </button>
+    <Link to="/stories" onClick={scrollToTop}>
+      <button className="flex flex-wrap gap-4 font-bold tracking-[2px] text-[12px] justify-between relative z-40 hover:underline">
+        <span>VIEW THE STORIES</span>
+        <svg
+          className="self-center"
+          xmlns="http://www.w3.org/2000/svg"
+          width="43"
+          height="14"
+        >
+          <g fill="none" fillRule="evenodd" stroke="#000000">
+            <path d="M0 7h41.864M35.428 1l6 6-6 6" />
+          </g>
+        </svg>
+      </button>
+    </Link>
   );
 };
 
